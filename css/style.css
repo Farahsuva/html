@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* common start*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+/* common end*/
+/* header start */
+header{
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 10%;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    flex-basis: 70%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.menu ul li{
+    
+}
+.menu ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+}
+.menu ul li a:hover{}
+.cart{
+    flex-basis: 20%;
+}
+.cart ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.cart ul li{
+    padding: 10px;
+}
+.cart ul li i{
+    font-size: 20px;
+    color: black;
+}
+
+
+/* header end */
+/* product start */
+.product{
+    padding: 100px 0;
+}
+.column1{
+    flex-basis: 33.33%;
+    padding: 5px;
+}
+.column2{
+    flex-basis: 33.33%;
+    padding: 5px;
+    
+}
+.column3{
+    flex-basis: 33.33%;
+    padding: 5px;
+    
+}
+img{
+    max-width: 100%;
+}
+.product-box1{}
+.product-box1 img{}
+.product-box1 h2{}
+.product-box1 h3{}
+.product-box1 h3 u{
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.product-box1 p{}
+.variant{
+    padding: 15px 0;
+}
+.product-box2 h3 u{
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.product-box3 h3 u{
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.variant h5{
+    margin: 0;
+    font-size: 25px;
+}
+.variant ul{
+    list-style: none;
+    display: flex;
+}
+.variant ul li{
+    padding: 10px 7px;
+}
+.variant ul li input{
+    
+}
+.variant ul li label{
+    font-size: 20px;
+}
+button{
+border: 1px solid ;
+background-color: black;
+color: #f7f7f7;
+padding: 5px;
+font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* product end */
+
+/* footer start */
+footer{
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p{
+    color: #f7f7f7;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 700
+}
+/* footer end */
+
+
